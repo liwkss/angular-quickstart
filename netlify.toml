@@ -1,6 +1,7 @@
 [build]
   command="ng build"
   publish="dist/angular-quickstart"
+  functions = "netlify/functions/"
 
 [[redirects]]
   from = "/*"
