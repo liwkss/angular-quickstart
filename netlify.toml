@@ -10,9 +10,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-functions-install-core"
-
-  [plugins.inputs.postBuild]
-    enable = true
-
-  [plugins.inputs]
-    enable = false
