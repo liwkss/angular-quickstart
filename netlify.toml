@@ -9,7 +9,6 @@
   status = 200
 
 [[plugins]]
-  package = "netlify-plugin-cypress"
   package = "@netlify/plugin-functions-install-core"
 
   [plugins.inputs.postBuild]
